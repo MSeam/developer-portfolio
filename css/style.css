@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background: #fff8f3;
+  background-image: url('/images/header_bg.png'), url('/images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+.container {
+  margin: 0 7rem;
+}
+
+.nav-container {
+  margin: 0 2.5rem;
+}
+
+nav {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.nav-title span {
+  color: #fd6e0a;
+}
+
+.nav-title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-title-text p {
+  font-size: 1.2rem;
+  margin: 15px 0 0 80px;
+}
+
+.nav-sub-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  width: 120px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-sub-title:hover {
+  color: #000;
+  background-color: #ff6a00b9;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner-one {
+  margin-top: 10rem;
+}
+
+.banner-sub-title {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.banner-text {
+  color: #757575;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #ff6a00b9;
+}
+
+.banner img {
+  padding-left: 15rem;
+}
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  background: #fff8f3;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.about-title-text {
+  font-size: 1.3rem;
+  font-weight: 50;
+  color: #757575;
+  text-align: center;
+}
+
+.about-info-container {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  justify-content: center;
+}
+
+.info-detraction {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #757575;
+}
+
+section {
+  margin-top: 50px;
+  padding: 4rem 0 0 0;
+}
+
+.sub-title {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.skill-title {
+  box-sizing: border-box;
+  box-shadow: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.skill {
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.skill img {
+  margin-bottom: 2rem;
+}
+
+.s-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+
+.s-title-text {
+  font-size: 1.2rem;
+  font-weight: 50;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download i {
+  padding-right: 10px;
+}
+
+.last-part {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  background: #fff8f3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.l-p-title,
+.l-p-icons {
+  display: flex;
+  justify-content: start;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+.l-p-text {
+  font-size: 1.2rem;
+  font-weight: 50;
+  text-align: left;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  color: #757575;
+}
+
+.l-p-icons {
+  cursor: pointer;
+  gap: 10px;
+}
+.last-part-sub-title {
+  padding: 0 2rem 1rem;
+}
+
+.last-part-sub-title .l-p-title {
+  padding: 0;
+}
+.last-part-sub-title input[type='text'],
+input[type='email'],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 280px;
+  padding: 18px 30px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 64px;
+  margin: 1.5rem 0;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-p-t {
+  display: flex;
+  justify-content: start;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 1rem 0;
+}
